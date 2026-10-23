@@ -60,6 +60,7 @@ python -m compileall -q src examples tools
 kuma quickstart
 python examples/minimal_local.py
 python tools/verify_minimal_local.py
+python tools/verify_local_judge.py
 python -m build
 python -m twine check dist/*
 ```
