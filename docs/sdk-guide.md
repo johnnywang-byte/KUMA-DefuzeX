@@ -37,7 +37,7 @@ Optional OpenTelemetry support:
 python -m pip install --upgrade "kuma-defuzex[otel]"
 ```
 
-Repository contributors should install this checkout with `python -m pip install -e ".[test,dev]"`.
+Repository contributors should install this checkout with `python -m pip install -e ".[dev,otel]"`, as in [Contributing](../CONTRIBUTING.md).
 Observation and correlation APIs are available in KUMA 0.3.0 or later.
 Upgrade the published package using the command above; no source checkout is required.
 
